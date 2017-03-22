@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10
+Eclock_divider
+Z0 w1490201658
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2
+Z5 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\clock_divider.vhd
+Z6 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\clock_divider.vhd
+l0
+L6
+VbJ]flSD4;JIJH2Y>?ZFCC3
+!s100 XPQJ6An:cL:@?mJ8FLSDM0
+Z7 OV;C;10.4d;61
+32
+Z8 !s110 1490205817
+!i10b 1
+Z9 !s108 1490205817.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\clock_divider.vhd|
+Z11 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\clock_divider.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Abehavior
+R1
+R2
+R3
+DEx4 work 13 clock_divider 0 22 bJ]flSD4;JIJH2Y>?ZFCC3
+l17
+L15
+V3Sz5GCnHGzVO^>`czFL873
+!s100 ^T3Ulc13NUQhoaJWnhn_j2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter
+Z14 w1490187828
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\counter.vhd
+Z16 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\counter.vhd
+l0
+L6
+V9QkILhoI`_U0d@a=g67SF3
+!s100 UjH<m`cV?dIohO>`1SlHP0
+R7
+32
+Z17 !s110 1490205818
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\counter.vhd|
+Z19 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\counter.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+DEx4 work 7 counter 0 22 9QkILhoI`_U0d@a=g67SF3
+l19
+L17
+Vd>BVhWZhP2m^WjLdIVA5:0
+!s100 aBGL3@4AL:?EIcCjA4Kk40
+R7
+32
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Escore_keeper
+Z20 w1490199868
+R1
+R2
+R3
+R4
+Z21 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\score_keeper.vhd
+Z22 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\score_keeper.vhd
+l0
+L6
+VU5ZR6:e9ke6YaM3dh@^XN0
+!s100 BESTcmLOjQ45C=WTD@RT13
+R7
+32
+R17
+!i10b 1
+Z23 !s108 1490205818.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\score_keeper.vhd|
+Z25 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\score_keeper.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 12 score_keeper 0 22 U5ZR6:e9ke6YaM3dh@^XN0
+l19
+L18
+VEa]9M[YzEi16ERRHEW@AG3
+!s100 kEkTVhf_NahGOPhW292eh1
+R7
+32
+R17
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Etb_clock_divider
+Z26 w1490205814
+R1
+R2
+R3
+R4
+Z27 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_clock_divider.vhd
+Z28 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_clock_divider.vhd
+l0
+L5
+VMDXE_nUcc0k[UFflj1A2]1
+!s100 OHDoh_^MQY22E8mR3B[R30
+R7
+32
+R17
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_clock_divider.vhd|
+Z30 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_clock_divider.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 16 tb_clock_divider 0 22 MDXE_nUcc0k[UFflj1A2]1
+l31
+L8
+V2M2zgT2Fzo?G7J90ERN0N3
+!s100 d`?EbSOTodAU75hl_2c@]0
+R7
+32
+R17
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R12
+R13
+Etb_counter
+Z31 w1490204974
+R1
+R2
+R3
+R4
+Z32 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_counter.vhd
+Z33 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_counter.vhd
+l0
+L5
+VXkgf3CYbhHU5G:i;kdeY53
+!s100 PlLTae9:E3>N:N0K;9XCa3
+R7
+32
+R17
+!i10b 1
+R23
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_counter.vhd|
+Z35 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_counter.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+Z36 DEx4 work 10 tb_counter 0 22 Xkgf3CYbhHU5G:i;kdeY53
+l29
+L8
+Z37 V>Fi]gcU^:ZeMb?:=YUG5P2
+Z38 !s100 L>m6m11FkZ6SKI13Ga8B_0
+R7
+32
+R17
+!i10b 1
+R23
+R34
+R35
+!i113 1
+R12
+R13
+Etb_score_keeper
+Z39 w1490205274
+R1
+R2
+R3
+R4
+Z40 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_score_keeper.vhd
+Z41 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_score_keeper.vhd
+l0
+L5
+V7JRSY7Y8<Tc^DM;:9AA@Z1
+!s100 ^GmU8;;W<SJH>hIRA::zQ3
+R7
+32
+R8
+!i10b 1
+R9
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_score_keeper.vhd|
+Z43 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_score_keeper.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 15 tb_score_keeper 0 22 7JRSY7Y8<Tc^DM;:9AA@Z1
+l35
+L8
+VH4Fc:KYM]aZ?a[;PCPhHf0
+!s100 7Bbk5z[l33>@2zNS5iKCE0
+R7
+32
+R8
+!i10b 1
+R9
+R42
+R43
+!i113 1
+R12
+R13

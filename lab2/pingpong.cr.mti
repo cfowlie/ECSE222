@@ -1,0 +1,46 @@
+{C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2/tb_score_keeper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_score_keeper.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_score_keeper
+-- Compiling architecture behavior of tb_score_keeper
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2/counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\counter.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture behaviour of counter
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2/tb_counter.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\tb_counter.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_counter
+-- Compiling architecture behavior of tb_counter
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2/clock_divider.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\clock_divider.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clock_divider
+-- Compiling architecture behavior of clock_divider
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab2/score_keeper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab2\score_keeper.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity score_keeper
+-- Compiling architecture behavior of score_keeper
+
+} {} {}}

@@ -1,0 +1,33 @@
+{C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/tb_seven_seg_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_seven_seg_decoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_seven_seg_decoder
+-- Compiling architecture behaviour of tb_seven_seg_decoder
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity led_decoder
+-- Compiling architecture behaviour of led_decoder
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/tb_led_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_led_decoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_led_decoder
+-- Compiling architecture behaviour of tb_led_decoder
+
+} {} {}} {C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/seven_seg_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\seven_seg_decoder.vhd}
+Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity seven_seg_decoder
+-- Compiling architecture behaviour of seven_seg_decoder
+
+} {} {}}

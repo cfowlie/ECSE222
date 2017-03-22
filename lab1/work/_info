@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+Eled_decoder
+Z0 w1490123365
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10
+Z4 8C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd
+Z5 FC:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd
+l0
+L6
+V3GX`CnDTKN?l_cKdAK=Uc1
+!s100 F5KeR:K5YeHYz?nSjSDGY2
+Z6 OV;C;10.4d;61
+32
+Z7 !s110 1490125723
+!i10b 1
+Z8 !s108 1490125723.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd|
+Z10 !s107 C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/lab10/led_decoder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1
+Abehaviour
+R1
+R2
+DEx4 work 11 led_decoder 0 22 3GX`CnDTKN?l_cKdAK=Uc1
+l14
+L13
+V4od]44PU0XZAJKBJDb_082
+!s100 3n_U8:c=6cOnTd5DH`3A50
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eseven_seg_decoder
+Z13 w1490125598
+R1
+R2
+R3
+Z14 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\seven_seg_decoder.vhd
+Z15 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\seven_seg_decoder.vhd
+l0
+L4
+VFifP<o9nVQ>I9710JTo:E2
+!s100 O=ZZ:5EV5S5[hVJhbKm5X0
+R6
+32
+Z16 !s110 1490125724
+!i10b 1
+Z17 !s108 1490125724.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\seven_seg_decoder.vhd|
+Z19 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\seven_seg_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 17 seven_seg_decoder 0 22 FifP<o9nVQ>I9710JTo:E2
+l12
+L11
+VG?_:cW^2@b[b]8m1I@@So1
+!s100 7<UL6M`@MeEkKM>>_Rz[K2
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etb_led_decoder
+Z20 w1490125234
+R1
+R2
+R3
+Z21 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_led_decoder.vhd
+Z22 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_led_decoder.vhd
+l0
+L6
+V4CBLF1=da6U63Yg]UQkfK3
+!s100 9`zKb[FCQI7=g`05QiX<Q3
+R6
+32
+R16
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_led_decoder.vhd|
+Z24 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_led_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 14 tb_led_decoder 0 22 4CBLF1=da6U63Yg]UQkfK3
+l23
+L9
+VGLc:ezc9YzgdT69OOdU`:2
+!s100 eXQ3o:Ql<PV^lBMYmbMJ`0
+R6
+32
+R16
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Etb_seven_seg_decoder
+Z25 w1490125713
+R1
+R2
+R3
+Z26 8C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_seven_seg_decoder.vhd
+Z27 FC:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_seven_seg_decoder.vhd
+l0
+L5
+V5jQh7n`;agRRV3jOUl8Xg0
+!s100 Z9dH>J0lR59;zojgHa0Td3
+R6
+32
+R16
+!i10b 1
+R17
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_seven_seg_decoder.vhd|
+Z29 !s107 C:\Users\Moose\OneDrive\School\Winter 2017\ECSE 222\lab10\tb_seven_seg_decoder.vhd|
+!i113 1
+R11
+R12
+Abehaviour
+R1
+R2
+DEx4 work 20 tb_seven_seg_decoder 0 22 5jQh7n`;agRRV3jOUl8Xg0
+l20
+L8
+VdP^4Pm3JALMY8:U170hIF0
+!s100 llg^M9E]MPTX@0@]nEf@o1
+R6
+32
+R16
+!i10b 1
+R17
+R28
+R29
+!i113 1
+R11
+R12
