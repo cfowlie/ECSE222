@@ -70,6 +70,9 @@ architecture behaviour of vga_controller is
 
     signal pixel_xr : integer := 0; -- Pixel position register
 	 signal pixel_yr : integer := 0; -- Pixel position register
+	 
+	 signal frontporch : std_logic;
+	 signal backporch : std_logic;
 
 begin
 
@@ -103,6 +106,19 @@ begin
 				--    else {
 				--        set vpos to 0
 				--		}
+
+		     if(hpos < MAX_H) then
+	            hpos <= hpos + 1;
+	        else
+	            hpos <= 0;
+	        end if;
+
+	        if(vpos < MAX_V) then
+	            vpos <= vpos + 1;
+	        else
+	            vpos <= 0;
+	        end if;
+	
           
                 
 
@@ -112,6 +128,12 @@ begin
 				-- } else {
 				--    set vga_hsr to 1
 				-- }
+
+	        if(hpos < S_H) then
+	            vga_hsr <= '0';
+	        else
+	            vga_hsr <= '1';
+	        end if;
          
 				
 				-- Set v_sync
@@ -120,6 +142,12 @@ begin
 				-- } else {
 				--    set vga_vsr to 1
 				-- }
+
+	        if(vpos < S_V) then
+	            vga_vsr <= '0';
+	        else
+	            vga_vsr <= '1';
+		     end if;
          
             -- Set blanking
 				-- if( front porch, backporch, h_sync,  v_sync){
@@ -136,16 +164,41 @@ begin
 				--          set pixel_yr to 0
 				--       }
 
+            frontporch <= '0';
+            if (hpos >= (S_H + BP_H + RGB_H)) then
+		          frontporch <= '1';
+		      end if;
+
+		      backporch <= '0';
+		      if (hpos >= S_H and hpos < (S_H + BP_H)) then
+		          backporch <= '1';
+		      end if;
+	   
+		      if ((frontporch = '1') or (backporch = '1') or (vga_hsr = '1') or (vga_vsr = '1')) then
+			       vga_blank <= '0';
+	         else
+			       vga_blank <= '1';
+			       if(pixel_xr < RGB_H-1) then
+				        pixel_xr <= pixel_xr + 1;
+			       else
+				        pixel_xr <= 0;
+				        if(pixel_yr < RGB_V-1) then
+					         pixel_yr <= pixel_yr + 1;
+				        else
+					         pixel_yr <= 0;
+				        end if;
+			       end if;
+		      end if;
 			
 			-- WRITE YOU CODE ABOVE
 			-- DELETE THE 7 LINES BELOW
-			hpos <= 0;
-            vga_vsr <= '0';
-            vpos <= 0;
-			vga_hsr <= '0';
-			vga_blank <= '1';
-			pixel_yr <= 0;
-			pixel_xr <= 0;
+			-- hpos <= 0;
+            -- vga_vsr <= '0';
+            -- vpos <= 0;
+			-- vga_hsr <= '0';
+			-- vga_blank <= '1';
+			-- pixel_yr <= 0;
+			-- pixel_xr <= 0;
 			
         end if;
     end process;

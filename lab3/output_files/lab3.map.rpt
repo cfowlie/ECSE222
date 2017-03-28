@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3
-Wed Mar 22 16:35:58 2017
+Mon Mar 27 13:36:22 2017
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -48,7 +48,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Mar 22 16:35:54 2017       ;
+; Analysis & Synthesis Status     ; Successful - Mon Mar 27 13:36:22 2017       ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                   ; lab3                                        ;
 ; Top-level Entity Name           ; lab3_top                                    ;
@@ -156,36 +156,31 @@ agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 2           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                       ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                             ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
-; video_draw.vhd                   ; yes             ; User VHDL File                     ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_draw.vhd         ;         ;
-; video_blank.vhd                  ; yes             ; User VHDL File                     ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd        ;         ;
-; vga_controller.vhd               ; yes             ; User VHDL File                     ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd     ;         ;
-; lab3_top.bdf                     ; yes             ; User Block Diagram/Schematic File  ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/lab3_top.bdf           ;         ;
-; color_decoder.vhd                ; yes             ; User VHDL File                     ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/color_decoder.vhd      ;         ;
-; vga_clk.vhd                      ; yes             ; User Wizard-Generated File         ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk.vhd            ; vga_clk ;
-; vga_clk/vga_clk_0002.v           ; yes             ; User Verilog HDL File              ; //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk/vga_clk_0002.v ; vga_clk ;
-; altera_pll.v                     ; yes             ; Megafunction                       ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altera_pll.v         ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; video_draw.vhd                   ; yes             ; User VHDL File                     ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_draw.vhd         ;         ;
+; video_blank.vhd                  ; yes             ; User VHDL File                     ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd        ;         ;
+; vga_controller.vhd               ; yes             ; User VHDL File                     ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd     ;         ;
+; lab3_top.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/lab3_top.bdf           ;         ;
+; color_decoder.vhd                ; yes             ; User VHDL File                     ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/color_decoder.vhd      ;         ;
+; vga_clk.vhd                      ; yes             ; User Wizard-Generated File         ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk.vhd            ; vga_clk ;
+; vga_clk/vga_clk_0002.v           ; yes             ; User Verilog HDL File              ; C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk/vga_clk_0002.v ; vga_clk ;
+; altera_pll.v                     ; yes             ; Megafunction                       ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altera_pll.v                        ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------+
@@ -570,7 +565,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -580,40 +575,39 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
-    Info: Processing started: Wed Mar 22 16:33:23 2017
+    Info: Processing started: Mon Mar 27 13:35:50 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c lab3
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file video_draw.vhd
-    Info (12022): Found design unit 1: video_draw-behaviour File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_draw.vhd Line: 31
-    Info (12023): Found entity 1: video_draw File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_draw.vhd Line: 16
+    Info (12022): Found design unit 1: video_draw-behaviour File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_draw.vhd Line: 31
+    Info (12023): Found entity 1: video_draw File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_draw.vhd Line: 16
 Info (12021): Found 2 design units, including 1 entities, in source file video_blank.vhd
-    Info (12022): Found design unit 1: video_blank-behaviour File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 31
-    Info (12023): Found entity 1: video_blank File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 13
+    Info (12022): Found design unit 1: video_blank-behaviour File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 31
+    Info (12023): Found entity 1: video_blank File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 13
 Info (12021): Found 2 design units, including 1 entities, in source file vga_controller.vhd
-    Info (12022): Found design unit 1: vga_controller-behaviour File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd Line: 64
-    Info (12023): Found entity 1: vga_controller File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd Line: 26
+    Info (12022): Found design unit 1: vga_controller-behaviour File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd Line: 64
+    Info (12023): Found entity 1: vga_controller File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file lab3_top.bdf
     Info (12023): Found entity 1: lab3_top
 Info (12021): Found 2 design units, including 1 entities, in source file color_decoder.vhd
-    Info (12022): Found design unit 1: color_decoder-behaviour File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/color_decoder.vhd Line: 25
-    Info (12023): Found entity 1: color_decoder File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/color_decoder.vhd Line: 13
+    Info (12022): Found design unit 1: color_decoder-behaviour File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/color_decoder.vhd Line: 25
+    Info (12023): Found entity 1: color_decoder File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/color_decoder.vhd Line: 13
 Info (12021): Found 2 design units, including 1 entities, in source file vga_clk.vhd
-    Info (12022): Found design unit 1: vga_clk-rtl File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk.vhd Line: 20
-    Info (12023): Found entity 1: vga_clk File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk.vhd Line: 11
+    Info (12022): Found design unit 1: vga_clk-rtl File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk.vhd Line: 20
+    Info (12023): Found entity 1: vga_clk File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk.vhd Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file vga_clk/vga_clk_0002.v
-    Info (12023): Found entity 1: vga_clk_0002 File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk/vga_clk_0002.v Line: 2
+    Info (12023): Found entity 1: vga_clk_0002 File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk/vga_clk_0002.v Line: 2
 Info (12127): Elaborating entity "lab3_top" for the top level hierarchy
 Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:inst"
-Warning (10036): Verilog HDL or VHDL warning at vga_controller.vhd(65): object "hpos" assigned a value but never read File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd Line: 65
-Warning (10036): Verilog HDL or VHDL warning at vga_controller.vhd(66): object "vpos" assigned a value but never read File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd Line: 66
-Warning (10492): VHDL Process Statement warning at vga_controller.vhd(86): signal "rst" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_controller.vhd Line: 86
+Warning (10036): Verilog HDL or VHDL warning at vga_controller.vhd(65): object "hpos" assigned a value but never read File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd Line: 65
+Warning (10036): Verilog HDL or VHDL warning at vga_controller.vhd(66): object "vpos" assigned a value but never read File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd Line: 66
+Warning (10492): VHDL Process Statement warning at vga_controller.vhd(86): signal "rst" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_controller.vhd Line: 86
 Info (12128): Elaborating entity "vga_clk" for hierarchy "vga_clk:inst7"
-Info (12128): Elaborating entity "vga_clk_0002" for hierarchy "vga_clk:inst7|vga_clk_0002:vga_clk_inst" File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk.vhd Line: 32
-Info (12128): Elaborating entity "altera_pll" for hierarchy "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk/vga_clk_0002.v Line: 85
+Info (12128): Elaborating entity "vga_clk_0002" for hierarchy "vga_clk:inst7|vga_clk_0002:vga_clk_inst" File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk.vhd Line: 32
+Info (12128): Elaborating entity "altera_pll" for hierarchy "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk/vga_clk_0002.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
-Info (12130): Elaborated megafunction instantiation "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk/vga_clk_0002.v Line: 85
-Info (12133): Instantiated megafunction "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" with the following parameter: File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/vga_clk/vga_clk_0002.v Line: 85
+Info (12130): Elaborated megafunction instantiation "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk/vga_clk_0002.v Line: 85
+Info (12133): Instantiated megafunction "vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i" with the following parameter: File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/vga_clk/vga_clk_0002.v Line: 85
     Info (12134): Parameter "fractional_vco_multiplier" = "false"
     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"
     Info (12134): Parameter "operation_mode" = "direct"
@@ -675,10 +669,10 @@ Info (12133): Instantiated megafunction "vga_clk:inst7|vga_clk_0002:vga_clk_inst
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
 Info (12128): Elaborating entity "video_blank" for hierarchy "video_blank:inst6"
-Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(41): object "r_reg" assigned a value but never read File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 41
-Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(42): object "g_reg" assigned a value but never read File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 42
-Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(43): object "b_reg" assigned a value but never read File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 43
-Info (12128): Elaborating entity "color_decoder" for hierarchy "video_blank:inst6|color_decoder:color_dec" File: //Mac/Home/Documents/Classes/U2/ECSE222/Labs/lab3/video_blank.vhd Line: 46
+Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(41): object "r_reg" assigned a value but never read File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 41
+Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(42): object "g_reg" assigned a value but never read File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 42
+Warning (10036): Verilog HDL or VHDL warning at video_blank.vhd(43): object "b_reg" assigned a value but never read File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 43
+Info (12128): Elaborating entity "color_decoder" for hierarchy "video_blank:inst6|color_decoder:color_dec" File: C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/video_blank.vhd Line: 46
 Info (12128): Elaborating entity "video_draw" for hierarchy "video_draw:inst1"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "vga_hs" is stuck at GND
@@ -716,9 +710,9 @@ Info (21057): Implemented 32 device resources after synthesis - the final resour
     Info (21059): Implemented 29 output pins
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 928 megabytes
-    Info: Processing ended: Wed Mar 22 16:36:01 2017
-    Info: Elapsed time: 00:02:38
-    Info: Total CPU time (on all processors): 00:00:21
+    Info: Peak virtual memory: 949 megabytes
+    Info: Processing ended: Mon Mar 27 13:36:22 2017
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:48
 
 
