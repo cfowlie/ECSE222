@@ -64,12 +64,22 @@ begin
 				-- } else {
 				--     set all outputs to color decoder
 				-- }
+
+		if (blank = '0') then
+			vga_r <= (others => '0');
+                	vga_g <= (others => '0');
+                	vga_b <= (others => '0');
+		else
+			vga_r <= r_reg;
+			vga_g <= g_reg;
+			vga_b <= b_reg;
+		end if;
 				
 				-- ADD YOUR CODE ABOVE
 				-- ERASE THE 3 STATEMENS BELOW THIS LINE
-				vga_r <= (others => '0');
-                vga_g <= (others => '0');
-                vga_b <= (others => '0');
+				--vga_r <= (others => '0');
+                		--vga_g <= (others => '0');
+                		--vga_b <= (others => '0');
 		  
         end if;
 
