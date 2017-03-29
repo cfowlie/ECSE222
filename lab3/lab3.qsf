@@ -94,4 +94,7 @@ set_location_assignment PIN_C13 -to vga_r[1]
 set_location_assignment PIN_A13 -to vga_r[0]
 set_location_assignment PIN_C10 -to vga_sync
 set_location_assignment PIN_D11 -to vga_vs
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp2.stp
+set_global_assignment -name SIGNALTAP_FILE output_files/stp2.stp
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

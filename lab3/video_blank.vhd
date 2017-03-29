@@ -66,9 +66,9 @@ begin
 				-- }
 
 		if (blank = '0') then
-			vga_r <= (others => '0');
-                	vga_g <= (others => '0');
-                	vga_b <= (others => '0');
+			vga_r <= "00000000";
+         vga_g <= "00000000";
+         vga_b <= "00000000";
 		else
 			vga_r <= r_reg;
 			vga_g <= g_reg;

@@ -111,13 +111,14 @@ begin
 	            hpos <= hpos + 1;
 	        else
 	            hpos <= 0;
+					if(vpos < MAX_V) then
+						vpos <= vpos + 1;
+					else
+						vpos <= 0;
+					end if;
 	        end if;
 
-	        if(vpos < MAX_V) then
-	            vpos <= vpos + 1;
-	        else
-	            vpos <= 0;
-	        end if;
+	        
 	
           
                 
@@ -130,9 +131,9 @@ begin
 				-- }
 
 	        if(hpos < S_H) then
-	            vga_hsr <= '0';
-	        else
 	            vga_hsr <= '1';
+	        else
+	            vga_hsr <= '0';
 	        end if;
          
 				
@@ -144,9 +145,9 @@ begin
 				-- }
 
 	        if(vpos < S_V) then
-	            vga_vsr <= '0';
-	        else
 	            vga_vsr <= '1';
+	        else
+	            vga_vsr <= '0';
 		     end if;
          
             -- Set blanking
@@ -167,12 +168,17 @@ begin
             frontporch <= '0';
             if (hpos >= (S_H + BP_H + RGB_H)) then
 		          frontporch <= '1';
+				else
+					frontporch <= '0';
 		      end if;
 
 		      backporch <= '0';
 		      if (hpos >= S_H and hpos < (S_H + BP_H)) then
 		          backporch <= '1';
+				else
+					 backporch <= '0';
 		      end if;
+				
 	   
 		      if ((frontporch = '1') or (backporch = '1') or (vga_hsr = '1') or (vga_vsr = '1')) then
 			       vga_blank <= '0';

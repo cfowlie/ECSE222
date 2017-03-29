@@ -1,5 +1,5 @@
 Fitter report for lab3
-Mon Mar 27 21:03:36 2017
+Wed Mar 29 14:38:36 2017
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -64,7 +64,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Mon Mar 27 21:03:36 2017       ;
+; Fitter Status                   ; Successful - Wed Mar 29 14:38:36 2017       ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                   ; lab3                                        ;
 ; Top-level Entity Name           ; lab3_top                                    ;
@@ -202,14 +202,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Node                                                                                   ; Action     ; Operation                                         ; Reason                     ; Node Port ; Node Port Name ; Destination Node                           ; Destination Port ; Destination Port Name ;
 +----------------------------------------------------------------------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+--------------------------------------------+------------------+-----------------------+
 ; vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i|outclk_wire[0]~CLKENA0 ; Created    ; Placement                                         ; Fitter Periphery Placement ;           ;                ;                                            ;                  ;                       ;
-; vga_controller:inst|hpos[7]                                                            ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|hpos[7]~DUPLICATE      ;                  ;                       ;
 ; vga_controller:inst|pixel_xr[1]                                                        ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[1]~DUPLICATE  ;                  ;                       ;
 ; vga_controller:inst|pixel_xr[3]                                                        ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[3]~DUPLICATE  ;                  ;                       ;
-; vga_controller:inst|pixel_xr[4]                                                        ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[4]~DUPLICATE  ;                  ;                       ;
-; vga_controller:inst|pixel_xr[7]                                                        ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[7]~DUPLICATE  ;                  ;                       ;
 ; vga_controller:inst|pixel_xr[11]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[11]~DUPLICATE ;                  ;                       ;
+; vga_controller:inst|pixel_xr[13]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[13]~DUPLICATE ;                  ;                       ;
+; vga_controller:inst|pixel_xr[15]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[15]~DUPLICATE ;                  ;                       ;
+; vga_controller:inst|pixel_xr[16]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[16]~DUPLICATE ;                  ;                       ;
+; vga_controller:inst|pixel_xr[29]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[29]~DUPLICATE ;                  ;                       ;
 ; vga_controller:inst|pixel_xr[31]                                                       ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|pixel_xr[31]~DUPLICATE ;                  ;                       ;
-; vga_controller:inst|vpos[9]                                                            ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization   ;           ;                ; vga_controller:inst|vpos[9]~DUPLICATE      ;                  ;                       ;
 +----------------------------------------------------------------------------------------+------------+---------------------------------------------------+----------------------------+-----------+----------------+--------------------------------------------+------------------+-----------------------+
 
 
@@ -261,12 +261,12 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 +-------------------------------------------------------------+--------------------+-------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 42 / 32,070        ; < 1 % ;
 ; ALMs needed [=A-B+C]                                        ; 42                 ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 53 / 32,070        ; < 1 % ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 54 / 32,070        ; < 1 % ;
 ;         [a] ALMs used for LUT logic and registers           ; 31                 ;       ;
 ;         [b] ALMs used for LUT logic                         ; 11                 ;       ;
-;         [c] ALMs used for registers                         ; 11                 ;       ;
+;         [c] ALMs used for registers                         ; 12                 ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 32,070        ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 12 / 32,070        ; < 1 % ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 32,070         ; 0 %   ;
 ;         [a] Due to location constrained logic               ; 0                  ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                  ;       ;
@@ -285,7 +285,7 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 ;     -- 5 input functions                                    ; 8                  ;       ;
 ;     -- 4 input functions                                    ; 2                  ;       ;
 ;     -- <=3 input functions                                  ; 57                 ;       ;
-; Combinational ALUT usage for route-throughs                 ; 13                 ;       ;
+; Combinational ALUT usage for route-throughs                 ; 9                  ;       ;
 ; Dedicated logic registers                                   ; 92                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
 ;         -- Primary logic registers                          ; 84 / 64,140        ; < 1 % ;
@@ -348,11 +348,11 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 ; Impedance control blocks                                    ; 0 / 4              ; 0 %   ;
 ; Hard Memory Controllers                                     ; 0 / 2              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.0% / 0.0% / 0.0% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 0.7% / 0.7% / 0.6% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 0.8% / 0.8% / 0.8% ;       ;
 ; Maximum fan-out                                             ; 93                 ;       ;
 ; Highest non-global fan-out                                  ; 93                 ;       ;
-; Total fan-out                                               ; 667                ;       ;
-; Average fan-out                                             ; 2.69               ;       ;
+; Total fan-out                                               ; 675                ;       ;
+; Average fan-out                                             ; 2.77               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -363,12 +363,12 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 +-------------------------------------------------------------+----------------------+--------------------------------+
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 42 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
 ; ALMs needed [=A-B+C]                                        ; 42                   ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 53 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 54 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
 ;         [a] ALMs used for LUT logic and registers           ; 31                   ; 0                              ;
 ;         [b] ALMs used for LUT logic                         ; 11                   ; 0                              ;
-;         [c] ALMs used for registers                         ; 11                   ; 0                              ;
+;         [c] ALMs used for registers                         ; 12                   ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                    ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 11 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 12 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
 ;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 0 / 32070 ( 0 % )    ; 0 / 32070 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                    ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                    ; 0                              ;
@@ -387,7 +387,7 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 ;     -- 5 input functions                                    ; 8                    ; 0                              ;
 ;     -- 4 input functions                                    ; 2                    ; 0                              ;
 ;     -- <=3 input functions                                  ; 57                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 13                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 9                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
 ;     -- 32-address deep                                      ; 0                    ; 0                              ;
@@ -419,7 +419,7 @@ The pin-out file can be found in C:/Users/Moose/OneDrive/School/Winter 2017/ECSE
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 654                  ; 220                            ;
+;     -- Total Connections                                    ; 662                  ; 220                            ;
 ;     -- Registered Connections                               ; 359                  ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
@@ -1478,9 +1478,9 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;    |vga_clk:inst7|                 ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|vga_clk:inst7                                                   ; vga_clk        ; vga_clk      ;
 ;       |vga_clk_0002:vga_clk_inst|  ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|vga_clk:inst7|vga_clk_0002:vga_clk_inst                         ; vga_clk_0002   ; vga_clk      ;
 ;          |altera_pll:altera_pll_i| ; 0.0 (0.0)            ; 0.0 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 0 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i ; altera_pll     ; work         ;
-;    |vga_controller:inst|           ; 35.5 (35.5)          ; 38.7 (38.7)                      ; 3.2 (3.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 68 (68)             ; 65 (65)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|vga_controller:inst                                             ; vga_controller ; work         ;
-;    |video_blank:inst6|             ; 3.6 (3.6)            ; 11.4 (11.4)                      ; 7.8 (7.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 24 (24)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|video_blank:inst6                                               ; video_blank    ; work         ;
-;    |video_draw:inst1|              ; 2.4 (2.4)            ; 2.4 (2.4)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 4 (4)               ; 3 (3)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|video_draw:inst1                                                ; video_draw     ; work         ;
+;    |vga_controller:inst|           ; 35.5 (35.5)          ; 37.8 (37.8)                      ; 2.3 (2.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 68 (68)             ; 65 (65)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|vga_controller:inst                                             ; vga_controller ; work         ;
+;    |video_blank:inst6|             ; 3.6 (3.6)            ; 11.9 (11.9)                      ; 8.3 (8.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 3 (3)               ; 24 (24)                   ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|video_blank:inst6                                               ; video_blank    ; work         ;
+;    |video_draw:inst1|              ; 2.4 (2.4)            ; 2.8 (2.8)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 4 (4)               ; 3 (3)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |lab3_top|video_draw:inst1                                                ; video_draw     ; work         ;
 +------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1615,12 +1615,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - video_draw:inst1|data_read[1]                                                                  ; 1                 ; 0       ;
 ;      - video_draw:inst1|data_read[2]                                                                  ; 1                 ; 0       ;
 ;      - vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL ; 1                 ; 0       ;
-;      - vga_controller:inst|hpos[7]~DUPLICATE                                                          ; 1                 ; 0       ;
-;      - vga_controller:inst|vpos[9]~DUPLICATE                                                          ; 1                 ; 0       ;
 ;      - vga_controller:inst|pixel_xr[31]~DUPLICATE                                                     ; 1                 ; 0       ;
+;      - vga_controller:inst|pixel_xr[29]~DUPLICATE                                                     ; 1                 ; 0       ;
+;      - vga_controller:inst|pixel_xr[16]~DUPLICATE                                                     ; 1                 ; 0       ;
+;      - vga_controller:inst|pixel_xr[15]~DUPLICATE                                                     ; 1                 ; 0       ;
+;      - vga_controller:inst|pixel_xr[13]~DUPLICATE                                                     ; 1                 ; 0       ;
 ;      - vga_controller:inst|pixel_xr[11]~DUPLICATE                                                     ; 1                 ; 0       ;
-;      - vga_controller:inst|pixel_xr[7]~DUPLICATE                                                      ; 1                 ; 0       ;
-;      - vga_controller:inst|pixel_xr[4]~DUPLICATE                                                      ; 1                 ; 0       ;
 ;      - vga_controller:inst|pixel_xr[3]~DUPLICATE                                                      ; 1                 ; 0       ;
 ;      - vga_controller:inst|pixel_xr[1]~DUPLICATE                                                      ; 1                 ; 0       ;
 ; clk_50                                                                                                ;                   ;         ;
@@ -1634,10 +1634,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+----------------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 ; rst                                                                            ; PIN_AB12                   ; 93      ; Async. clear, Clock enable ; no     ; --                   ; --               ; --                        ;
 ; vga_clk:inst7|vga_clk_0002:vga_clk_inst|altera_pll:altera_pll_i|outclk_wire[0] ; PLLOUTPUTCOUNTER_X0_Y20_N1 ; 93      ; Clock                      ; yes    ; Global Clock         ; GCLK6            ; --                        ;
-; vga_controller:inst|LessThan0~0                                                ; MLABCELL_X28_Y78_N24       ; 11      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
-; vga_controller:inst|LessThan1~1                                                ; LABCELL_X27_Y80_N0         ; 11      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
-; vga_controller:inst|LessThan7~6                                                ; MLABCELL_X28_Y77_N18       ; 38      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
-; vga_controller:inst|process_0~0                                                ; MLABCELL_X28_Y78_N9        ; 39      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; vga_controller:inst|LessThan0~0                                                ; LABCELL_X29_Y77_N18        ; 20      ; Clock enable, Sync. clear  ; no     ; --                   ; --               ; --                        ;
+; vga_controller:inst|LessThan1~1                                                ; MLABCELL_X28_Y77_N0        ; 10      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
+; vga_controller:inst|LessThan7~6                                                ; LABCELL_X27_Y77_N36        ; 40      ; Sync. clear                ; no     ; --                   ; --               ; --                        ;
+; vga_controller:inst|process_0~0                                                ; MLABCELL_X34_Y77_N57       ; 41      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
 +--------------------------------------------------------------------------------+----------------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1655,14 +1655,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+-------------------------+
 ; Routing Resource Type                       ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Block interconnects                         ; 106 / 289,320 ( < 1 % ) ;
+; Block interconnects                         ; 110 / 289,320 ( < 1 % ) ;
 ; C12 interconnects                           ; 7 / 13,420 ( < 1 % )    ;
-; C2 interconnects                            ; 37 / 119,108 ( < 1 % )  ;
-; C4 interconnects                            ; 24 / 56,300 ( < 1 % )   ;
+; C2 interconnects                            ; 44 / 119,108 ( < 1 % )  ;
+; C4 interconnects                            ; 25 / 56,300 ( < 1 % )   ;
 ; DQS bus muxes                               ; 0 / 25 ( 0 % )          ;
 ; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )          ;
 ; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )          ;
-; Direct links                                ; 25 / 289,320 ( < 1 % )  ;
+; Direct links                                ; 20 / 289,320 ( < 1 % )  ;
 ; Global clocks                               ; 1 / 16 ( 6 % )          ;
 ; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )           ;
 ; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )           ;
@@ -1720,10 +1720,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )          ;
 ; Local interconnects                         ; 41 / 84,580 ( < 1 % )   ;
 ; Quadrant clocks                             ; 0 / 66 ( 0 % )          ;
-; R14 interconnects                           ; 9 / 12,676 ( < 1 % )    ;
-; R14/C12 interconnect drivers                ; 15 / 20,720 ( < 1 % )   ;
-; R3 interconnects                            ; 62 / 130,992 ( < 1 % )  ;
-; R6 interconnects                            ; 34 / 266,960 ( < 1 % )  ;
+; R14 interconnects                           ; 11 / 12,676 ( < 1 % )   ;
+; R14/C12 interconnect drivers                ; 17 / 20,720 ( < 1 % )   ;
+; R3 interconnects                            ; 64 / 130,992 ( < 1 % )  ;
+; R6 interconnects                            ; 36 / 266,960 ( < 1 % )  ;
 ; Spine clocks                                ; 2 / 360 ( < 1 % )       ;
 ; Wire stub REs                               ; 0 / 15,858 ( 0 % )      ;
 +---------------------------------------------+-------------------------+
@@ -1870,7 +1870,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
 ; Source Clock(s)                                                           ; Destination Clock(s)                                                      ; Delay Added in ns ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
-; inst7|vga_clk_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; inst7|vga_clk_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 5.9               ;
+; inst7|vga_clk_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; inst7|vga_clk_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk ; 4.9               ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the TimeQuest Timing Analyzer.
@@ -1881,46 +1881,27 @@ This will disable optimization of problematic paths and expose them for further 
 +----------------------------------+--------------------------------+-------------------+
 ; Source Register                  ; Destination Register           ; Delay Added in ns ;
 +----------------------------------+--------------------------------+-------------------+
-; vga_controller:inst|pixel_xr[16] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[15] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[14] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[13] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[12] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[11] ; video_draw:inst1|data_read[2]  ; 0.807             ;
-; vga_controller:inst|pixel_xr[28] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[27] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[26] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[25] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[24] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[23] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[22] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[21] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[20] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[19] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[17] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[10] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[9]  ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|pixel_xr[18] ; video_draw:inst1|data_read[2]  ; 0.664             ;
-; vga_controller:inst|hpos[6]      ; vga_controller:inst|frontporch ; 0.331             ;
-; vga_controller:inst|hpos[7]      ; vga_controller:inst|backporch  ; 0.320             ;
-; video_draw:inst1|data_read[0]    ; video_blank:inst6|vga_b[0]     ; 0.278             ;
-; vga_controller:inst|vpos[3]      ; vga_controller:inst|vga_vsr    ; 0.277             ;
-; vga_controller:inst|vpos[1]      ; vga_controller:inst|vga_vsr    ; 0.263             ;
-; vga_controller:inst|hpos[9]      ; vga_controller:inst|frontporch ; 0.255             ;
-; video_draw:inst1|data_read[2]    ; video_blank:inst6|vga_r[0]     ; 0.249             ;
-; vga_controller:inst|vpos[8]      ; vga_controller:inst|vga_vsr    ; 0.243             ;
-; vga_controller:inst|vpos[7]      ; vga_controller:inst|vga_vsr    ; 0.243             ;
-; vga_controller:inst|vpos[6]      ; vga_controller:inst|vga_vsr    ; 0.243             ;
-; vga_controller:inst|vpos[5]      ; vga_controller:inst|vga_vsr    ; 0.243             ;
-; vga_controller:inst|vpos[4]      ; vga_controller:inst|vga_vsr    ; 0.243             ;
-; vga_controller:inst|pixel_xr[8]  ; video_draw:inst1|data_read[2]  ; 0.154             ;
-; vga_controller:inst|hpos[5]      ; vga_controller:inst|backporch  ; 0.128             ;
-; vga_controller:inst|hpos[4]      ; vga_controller:inst|frontporch ; 0.126             ;
-; vga_controller:inst|vpos[9]      ; vga_controller:inst|vga_vsr    ; 0.119             ;
-; vga_controller:inst|hpos[8]      ; vga_controller:inst|backporch  ; 0.036             ;
-; vga_controller:inst|vpos[2]      ; vga_controller:inst|vga_vsr    ; 0.033             ;
+; vga_controller:inst|hpos[6]      ; vga_controller:inst|frontporch ; 0.332             ;
+; vga_controller:inst|hpos[7]      ; vga_controller:inst|backporch  ; 0.324             ;
+; vga_controller:inst|vpos[8]      ; vga_controller:inst|vga_vsr    ; 0.296             ;
+; vga_controller:inst|vpos[7]      ; vga_controller:inst|vga_vsr    ; 0.296             ;
+; vga_controller:inst|vpos[6]      ; vga_controller:inst|vga_vsr    ; 0.296             ;
+; vga_controller:inst|vpos[5]      ; vga_controller:inst|vga_vsr    ; 0.296             ;
+; vga_controller:inst|vpos[4]      ; vga_controller:inst|vga_vsr    ; 0.296             ;
+; vga_controller:inst|vpos[3]      ; vga_controller:inst|vga_vsr    ; 0.290             ;
+; video_draw:inst1|data_read[2]    ; video_blank:inst6|vga_r[0]     ; 0.255             ;
+; vga_controller:inst|vpos[1]      ; vga_controller:inst|vga_vsr    ; 0.249             ;
+; vga_controller:inst|hpos[9]      ; vga_controller:inst|frontporch ; 0.208             ;
+; vga_controller:inst|vpos[9]      ; vga_controller:inst|vga_vsr    ; 0.187             ;
+; vga_controller:inst|hpos[4]      ; vga_controller:inst|frontporch ; 0.162             ;
+; vga_controller:inst|pixel_xr[30] ; video_draw:inst1|data_read[2]  ; 0.156             ;
+; vga_controller:inst|hpos[5]      ; vga_controller:inst|vga_hsr    ; 0.129             ;
+; video_draw:inst1|data_read[0]    ; video_blank:inst6|vga_b[0]     ; 0.105             ;
+; vga_controller:inst|vpos[2]      ; vga_controller:inst|vga_vsr    ; 0.053             ;
+; vga_controller:inst|hpos[8]      ; vga_controller:inst|vga_hsr    ; 0.046             ;
+; vga_controller:inst|pixel_xr[31] ; video_draw:inst1|data_read[2]  ; 0.036             ;
 +----------------------------------+--------------------------------+-------------------+
-Note: This table only shows the top 38 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 19 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1952,7 +1933,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:22
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:23
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
@@ -1965,18 +1946,18 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
-Info (11888): Total time spent on timing analysis during the Fitter is 0.38 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.44 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:07
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:06
 Info (144001): Generated suppressed messages file C:/Users/Moose/OneDrive/School/Winter 2017/ECSE 222/ECSE222/lab3/output_files/lab3.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 2255 megabytes
-    Info: Processing ended: Mon Mar 27 21:03:37 2017
-    Info: Elapsed time: 00:01:22
+    Info: Peak virtual memory: 2228 megabytes
+    Info: Processing ended: Wed Mar 29 14:38:38 2017
+    Info: Elapsed time: 00:01:20
     Info: Total CPU time (on all processors): 00:01:28
 
 
